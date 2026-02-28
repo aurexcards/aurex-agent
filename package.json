@@ -12,6 +12,11 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
@@ -35,7 +40,11 @@
   "homepage": "https://aurex.cash",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aurexcards/aurex-agent"
+    "url": "https://github.com/aurexcards/aurex-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aurexcards/aurex-agent/issues",
+    "email": "support@aurex.cash"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
