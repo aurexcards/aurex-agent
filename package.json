@@ -1,6 +1,6 @@
 {
   "name": "@aurexcash/agent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Official Aurex tools for AI agents — give any agent the ability to create users, issue virtual cards, handle deposits, and more.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
